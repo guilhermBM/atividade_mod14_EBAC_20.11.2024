@@ -1,0 +1,96 @@
+.carousel-img {
+    height: 600px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #353333;
+}
+
+section {
+    font-family: Lora, serif;
+}
+
+.imagem-sobre {
+    width: 200px;
+    height: 300px
+}
+
+#inicio a img {
+    height: 150px;
+}
+
+.cor-text-btn {
+    color: #fff;
+}
+
+.cor-bg-btn {
+    background-color: #8b8989;
+}
+
+.cor-nav-header,
+.cor-nav-header:hover,
+header .nav-item .nav-link {
+    color: #8b8989;
+}
+
+header ul .nav-link.active{
+    background-color: #353333;
+} 
+
+#adocao-ong,
+#sobre-nos {
+    background-color: #f2eaea;
+}
+
+#adocao-ong .nav-link.active {
+    background-color: #353333;
+}
+
+.cor-text-btn:hover {
+    color: #fff;
+}
+
+header {
+    background-color: #fff;
+}
+
+body {
+    background-color: rgb(244, 250, 250);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #353333;
+}
+
+#fale-conosco form button {
+    background-color: rgb(57, 154, 77);
+    color: #fff;
+}
+
+.error {
+    color: rgb(246, 74, 74);
+}
+
+@media (max-width: 767px) {
+    .sticky-top {
+        position: unset;
+    }
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #sobre-nos img{
+        width: 150px;
+        height: 250px;
+    }
+}
